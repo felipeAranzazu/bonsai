@@ -1,0 +1,183 @@
+:root {
+    --green-color: #22ad01;
+    --white-color: #fff;
+    --grey-color: #4c4d5f;
+    --yellow-color: #f8db62; 
+}
+
+#logo {
+    width: 90px;
+}
+
+.row > a {
+    text-decoration: none;
+    color: #65816d;
+}
+
+#links > a {
+    text-decoration: none;
+    color: #65816d;
+}
+
+.divisor-line {
+    margin: 10px 70px
+}
+
+#button-navbar-1 {
+    width: 100px;
+    margin-right: 10px;
+    border-radius: 30px;
+    background-color: #22ad01;
+    color: white;
+    border-color: transparent;
+}
+
+#button-navbar-1:hover {
+    background-color: #2dba0a;
+}
+
+#button-navbar-2:hover {
+    background-color: lightgray;
+}
+
+#button-navbar-2 {
+    width: 100px;
+    margin-right: 10px;
+    border-radius: 30px;
+    border: none;
+    color: #434242;
+}
+
+#navbar{
+    margin: auto 60px;
+}
+
+#links-navbar {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#links-navbar:hover {
+    color: #22ad01;
+}
+
+#down-navbar {
+    margin-top: 20px;
+}
+
+#down-navbar-1 {
+    display: none;
+}
+
+#down-navbar-2 {
+    display: none;
+}
+
+#down-navbar-3 {
+    display: none;
+}
+
+#down-navbar-4 {
+    display: none;
+}
+
+#down-navbar-5 {
+    display: none;
+}
+
+@font-face {
+    font-family: 'Gellix';
+    src: url('css/fontGellix/Gellix-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+} 
+
+#navBar {
+    background-color: white !important;
+}
+
+#title-1 {
+    height: 300px;
+}
+
+#title-1 .container,
+#title-1 .row {
+    height: 100%;
+}
+
+.pricing-cards {
+    border-radius: 30px;
+    padding: 15px;
+    text-align: center;
+}
+
+#title-2 {
+    height: 300px;
+}
+
+#title-2 .container,
+#title-2 .row {
+    height: 100%;
+}
+
+.container-footer {
+    box-sizing: border-box;
+}
+
+.row-footer {
+    box-sizing: border-box;
+    border: 1px solid orange;
+    padding: 10px;
+}
+
+.row-footer-1 {
+    box-sizing: border-box;
+    border: 1px solid orange;
+    padding: 0px;
+}
+
+.column-footer {
+    box-sizing: border-box;
+    border: 1px solid grey;
+    /* padding: 10px; */
+}
+
+.column-footer-1 {
+    box-sizing: border-box;
+    border: 1px solid grey;
+    padding: 0px;
+}
+
+.column-footer > div {
+    box-sizing: border-box;
+    padding: 2px;
+    border: 1px solid blue;
+}
+
+.logo {
+    width: 50%;
+}
+
+.dropdown-footer {
+    padding-top: 0;
+    padding-right: 0;
+    /* padding-left: 0; */
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-dropdown {
+    width: 15px;
+}
+
+.dropdown-footer > button {
+    padding-top: 0;
+    padding-right: 0;
+    border: none;
+}
+
+.dropdown-menu {
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+}
